@@ -1,0 +1,40 @@
+2020-10-12T02:49:43+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 1171 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('1171')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('1171')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+# in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-10-12T03:25:49+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 1174 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('1174')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('1174')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+# in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-10-12T03:25:49+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 1174 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('1174')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('1174')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+# in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-10-12T22:16:51+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 1182 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('1182')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('1182')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+# in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-10-12T22:17:04+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 1184 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('1184')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('1184')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+# in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+

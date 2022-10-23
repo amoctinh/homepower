@@ -1,0 +1,30 @@
+2020-06-18T09:54:12+00:00 CRITICAL Uncaught Error: Call to undefined function print_attribute_radio() in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php:58
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php on line 58
+
+2020-06-18T09:54:24+00:00 CRITICAL Uncaught Error: Call to undefined function print_attribute_radio() in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php:58
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php on line 58
+
+2020-06-18T09:55:05+00:00 CRITICAL Uncaught Error: Call to undefined function print_attribute_radio() in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php:58
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1630): wc_get_template('single-product/...', Array)
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(287): woocommerce_variable_add_to_cart('')
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1576): do_action('woocommerce_var...')
+#6 /var/www/vhosts/homepower.vn/httpdocs/wp-includes/class-wp-hook.php in /var/www/vhosts/homepower.vn/httpdocs/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/variable.php on line 58
+

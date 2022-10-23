@@ -1,0 +1,24 @@
+2020-07-21T02:54:42+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 797 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('797')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('797')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+#4 / in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-07-21T11:09:35+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 802 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('802')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('802')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+#4 / in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+
+2020-07-21T13:16:40+00:00 CRITICAL Uncaught InvalidArgumentException: Hành động không xác định 809 in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+Stack trace:
+#0 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(267): ActionScheduler_DBStore->cancel_action('809')
+#1 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(290): ActionScheduler_HybridStore->cancel_action('809')
+#2 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php(251): ActionScheduler_Store->bulk_cancel_actions(Array)
+#3 /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(136): ActionScheduler_Store->cancel_actions_by_hook('wc_facebook_reg...')
+#4 / in /var/www/vhosts/homepower.vn/httpdocs/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 458
+

@@ -1,0 +1,4 @@
+2020-05-27T13:28:21+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR), expecting end of file in /home/dannguyen/public_html/wp-content/themes/flatsome/woocommerce/loop/orderby.php on line 18
+
+2020-05-27T13:29:58+00:00 CRITICAL syntax error, unexpected '<' in /home/dannguyen/public_html/wp-content/themes/flatsome/woocommerce/loop/orderby.php on line 31
+
